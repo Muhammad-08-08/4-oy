@@ -1,0 +1,253 @@
+.tasbeh{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 120px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.karofka{
+    width: 65%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: chartreuse;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+h1{
+    width: 83%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    background-color: chocolate;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.inc-dec{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+}
+
+.increment{
+    width: 30%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 auto;
+    font-size: 25px;
+    background-color: chocolate;
+    color: white;
+}
+
+.decrement{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 250px;
+    font-size: 18px;
+    background-color: chocolate;
+    color: white;
+    margin-top: 60px;
+}
+
+/* tasbeh tugadi */
+
+.svetafor{
+    width: 200px;
+    height: 600px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 30px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.qizil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.sariq{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.yashil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+/* svetafor tugadi */
+
+.kalkulyator{
+    width: 400px;
+    height: 670px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.kalkul{
+    width: 70%;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: coral;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: white solid 10px;
+}
+.sonlar{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin: 0 auto;
+}
+
+.pilus{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.minus{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.bolish{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.kopaytirish{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.bir{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.ikki{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.uch{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.tort{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.besh{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.olti{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.yetti{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.sakkiz{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.toqqiz{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.nol{
+    padding: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.ok{
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
