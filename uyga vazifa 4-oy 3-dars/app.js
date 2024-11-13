@@ -6,31 +6,46 @@ let data = [
   { id: 2, name: "Jane Doe", age: 30, action: "del edit" },
   { id: 3, name: "Alice Doe", age: 28, action: "del edit" },
 ];
+
 data.forEach((val) => {
   let tr = document.createElement("tr");
   let tdId = document.createElement("td");
   let tdName = document.createElement("td");
   let tdAge = document.createElement("td");
   let tdAction = document.createElement("td");
+
   tdId.textContent = val.id;
   tdName.textContent = val.name;
   tdAge.textContent = val.age;
-  tr.append(tdId, tdName, tdAge, tdAction);
-  tbody.append(tr);
+
+  tr.append(tdId, tdName, tdAge);
+
   val.action.split(" ").forEach((item) => {
-    let delBtn = document.createElement("button");
-    delBtn.textContent = item;
+    let btn = document.createElement("button");
+    btn.textContent = item;
 
     if (item === "del") {
-      delBtn.addEventListener("click", () => {
+      btn.addEventListener("click", () => {
         tr.remove();
       });
     } else if (item === "edit") {
-      delBtn.addEventListener("click", () => {
+      btn.addEventListener("click", () => {
         tdName.contentEditable = true;
         tdAge.contentEditable = true;
+        tdName.focus();
+      });
+
+      tdName.addEventListener("blur", () => {
+        tdName.contentEditable = false;
+      });
+      tdAge.addEventListener("blur", () => {
+        tdAge.contentEditable = false;
       });
     }
-    tdAction.append(delBtn);
+
+    tdAction.append(btn);
   });
+
+  tr.append(tdAction);
+  tbody.append(tr);
 });
